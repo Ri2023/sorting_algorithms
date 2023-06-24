@@ -64,7 +64,7 @@ int my_lomuto_partion(int *array, size_t size, int l, int r)
 
 	for (index_above = index_below = l; index_below < r; index_below++)
 	{
-		i /* iterates through the array from the */
+		 /* iterates through the array from the */
 			/* leftmost index to the rightmost index */
 		if (array[index_below] < *switch_val)
 		{
